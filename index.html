@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>holy ticket</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="key, words" />
+    <meta name="description" content="Website description" />
+    <meta name="robots" content="noindex, nofollow" /><!-- change into index, follow -->
+
+    <link rel="stylesheet" type="text/css" href="css/holygantt.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>HolyGantt</h1>
+                <p>Welcome to HolyGantt :-) With HolyGantt you can create a gantt or timetable easily. Check below for a demo.</p>
+                <p><strong>Tip: try to move or resize the blocks in the timetable.</strong></p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Demo</h1>
+
+                <div id="gantt" class="timediv">
+                    <div class="left">
+                        <div class="head">
+
+                        </div>
+                        <div class="columns-wrapper">
+                            <div class="columns">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="header-wrapper">
+                            <div class="header">
+
+                            </div>
+                        </div>
+                        <div class="cont">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Installation</h1>
+                    <ol>
+                        <li>First, include jQuery and jQuery UI.</li>
+                        <li>Add holygantt.js and holygantt.css</li>
+                        <li>Add the following at the end of your body: <br />
+                        <code>
+                            $("#gantt").gatt({
+                            data: 'data.json',
+                            tdInterval: 30,
+                            mode: 'edit',
+                            resizeInterval: 15,
+                            changed: function(info) {
+
+                            }
+                            })
+                        </code> <br />
+                            Data points to a JSON file or URL with the shifts.
+                        </li>
+                    </ol>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Options</h1>
+                <ul>
+                    <li>resizeInterval: step size when resizing or repositioning shifts</li>
+                    <li>mode: <code>view</code> or <code>edit</code></li>
+                    <li>data: URL to JSON file with shifts. See <a href="data.json">data.json</a></li>
+                    <li>changed: callback function which receives the bar info (with new start/end time).</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"   integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/holygantt.js"></script>
+
+
+    <script>
+        $("#gantt").gatt({
+            data: 'data.json',
+            tdInterval: 30,
+            mode: 'edit',
+            resizeInterval: 15,
+            changed: function(info) {
+                console.log(info);
+            }
+        })
+    </script>
+
+</body>
+</html>

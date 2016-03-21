@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Bar",
+    "row_id": 0,
+    "quantity": 5,
+    "confirm": 1,
+    "id": "34502",
+    "color": "#b8e986",
+    "from": 1457551800,
+    "to": 1457569800,
+    "label": "Richard Johnson"
+  },
+  {
+    "name": "Bandopvang",
+    "row_id": 1,
+    "quantity": 2,
+    "confirm": 1,
+    "id": "38690",
+    "color": "#9ACBDB",
+    "from": 1457535600,
+    "to": 1457553600,
+    "label": "Nataly Bernardson"
+  },
+  {
+    "name": "Bandopvang",
+    "row_id": 2,
+    "quantity": 2,
+    "confirm": 1,
+    "id": "38694",
+    "color": "#b8e986",
+    "from": 1457551800,
+    "to": 1457569800,
+    "label": "Tom Johnsson"
+  },
+  {
+    "name": "Bedrijfsleider",
+    "row_id": 3,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "34462",
+    "color": "#9ACBDB",
+    "from": 1457550000,
+    "to": 1457569800,
+    "label": "Linda de Mol"
+  },
+  {
+    "name": "Concert-DJ",
+    "row_id": 4,
+    "quantity": 2,
+    "confirm": 1,
+    "id": "38872",
+    "color": "#b8e986",
+    "from": 1457552700,
+    "to": 1457568000,
+    "label": "Alex F."
+  },
+  {
+    "name": "Photographer",
+    "row_id": 5,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "34532",
+    "color": "#CB9ADB",
+    "from": 1457552700,
+    "to": 1457568000,
+    "label": "Matty de Slon"
+  },
+  {
+    "name": "Hospitality",
+    "row_id": 6,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "34542",
+    "color": "#b8e986",
+    "from": 1457551800,
+    "to": 1457569800,
+    "label": "Dionysius Breandan"
+  },
+  {
+    "name": "Sound",
+    "row_id": 7,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "38692",
+    "color": "#b8e986",
+    "from": 1457535600,
+    "to": 1457569800,
+    "label": "Tiyamike Emin"
+  },
+  {
+    "name": "Ticket checker",
+    "row_id": 8,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "34492",
+    "color": "#b8e986",
+    "from": 1457552700,
+    "to": 1457566200,
+    "label": "Wigberht Mikael"
+  },
+  {
+    "name": "Lights",
+    "row_id": 9,
+    "quantity": 1,
+    "id": "38691",
+    "color": "#b8e986",
+    "from": 1457535600,
+    "to": 1457569800,
+    "label": "Ramsay Wawrzyniec"
+  },
+  {
+    "name": "Stagehand",
+    "row_id": 10,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "38693",
+    "color": "#b8e986",
+    "from": 1457535600,
+    "to": 1457569800,
+    "label": "Elder Kieron"
+  },
+  {
+    "name": "Stagemanager",
+    "row_id": 11,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "38695",
+    "color": "#b8e986",
+    "from": 1457535600,
+    "to": 1457569800,
+    "label": "Derek Kazimierz"
+  },
+  {
+    "name": "Security",
+    "row_id": 12,
+    "quantity": 1,
+    "confirm": 1,
+    "id": "34512",
+    "color": "#b8e986",
+    "from": 1457552700,
+    "to": 1457568900,
+    "label": "Jeff Manson"
+  }
+]

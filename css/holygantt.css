@@ -1,0 +1,133 @@
+.timediv {
+    overflow: hidden;
+}
+
+.timediv .left {
+    width: 200px;
+    float: left;
+}
+
+.left .head {
+    height: 20px;
+}
+
+.left .columns-wrapper {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.left .columns {
+    height: 400px;
+    width: 110%;
+    overflow: scroll;
+
+}
+
+.columns .desc {
+    height: 50px;
+    text-align: left;
+    line-height: 18px;
+    padding-top: 9px;
+}
+
+.columns .desc .task-name {
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+
+.columns .desc .meta {
+    font-size: 15px;
+}
+
+.timediv .right {
+    width: 0;
+    float: left;
+    height: auto;
+}
+
+.cont {
+    height: 400px;
+    width: auto;
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+.cont .task {
+    height: 50px;
+    width: 100%;
+    font-size: 0;
+}
+
+.task .name {
+    width: 200px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.task .col {
+    max-width: 55px;
+    min-width: 55px;
+    width: 55px;
+    border: 0;
+    display: inline-block;
+    height: 100%;
+    border: 1px solid #e2e7eb;
+    height: 46px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.right .header-wrapper {
+    height: 20px;
+    overflow: hidden;
+}
+
+.right .header {
+    height: 40px;
+    width: auto;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    font-size: 0;
+}
+
+.right .header > div {
+    max-width: 55px;
+    min-width: 55px;
+    width: 55px;
+    border: 0;
+    display: inline-block;
+}
+
+.header .first {
+    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.hour {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bar {
+    font-size: 11px;
+}
+
+table.dataTable {
+    table-layout: fixed;
+}
+
+.tooltip-inner {
+    max-width: 100px;
+    width: 100px;
+}
+
+.hour span {
+    margin-left: -16px;
+}
