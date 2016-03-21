@@ -14,7 +14,7 @@ function padLeft(nr, n, str){
     };
 
 
-    $.fn.gatt = function(options, cb, closecb) {
+    $.fn.gantt = function(options, cb, closecb) {
 
         function process(bar) {
             var info = getBarInfo(bar);
@@ -117,8 +117,6 @@ function padLeft(nr, n, str){
         var i = 0;
         $.each(json, function() {
 
-            console.log(this);
-
             var nn = $('<div/>', {
                 class: 'task',
                 'data-row-id': i,
@@ -146,8 +144,6 @@ function padLeft(nr, n, str){
             $columns.append(dd);
             i++;
         });
-
-        // Hier
 
         var width = $target.width();
 
